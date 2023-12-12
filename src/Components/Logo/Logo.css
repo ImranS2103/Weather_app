@@ -1,0 +1,30 @@
+.logo-column {
+  display: flex;
+  float: left;
+  height: 780px;
+}
+
+.div-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  background-color: rgb(21, 40, 67);
+  border-radius: 9px;
+}
+.logo-head,h3{
+color: aliceblue;
+margin-top: -3%;
+margin-left: 8px;
+margin-right: 8px;
+}
+.logo-icon {
+  width: 50px; /* Adjust the size as needed */
+  height: 80px; /* Adjust the size as needed */
+  margin-top: 5px;
+  align-items: center;
+}
+
+.cities {
+  margin-top: 20px;
+}

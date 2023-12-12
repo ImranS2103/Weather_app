@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Logo from './Components/Logo/Logo';
+import SearchBar from './Components/SearchBar/SearchBar'; 
+import CurrentWeather from './Components/CurrentWeather/CurrentWeather'
+import TodaysForecast from './Components/TodaysForecast/TodaysForecast'
+import AirConditions from "./Components/AirConditions/AirConditions"
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Logo />
+      <SearchBar />
+      <CurrentWeather />
+      <TodaysForecast /><br />
+      <AirConditions />
     </div>
   );
 }

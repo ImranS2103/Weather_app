@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.AirConditions-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1px 2px;
+    padding: 20px;
+    background-color: rgb(21, 40, 67);
+    max-width: 650px;
+    /* Adjusted to fit 2 columns */
+    height: 250px;
+    /* Adjusted height for 2x2 layout */
+    border-radius: 9px;
+}
+
+.A-head {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 0px;
+    font-size: 17px;
+    color: whitesmoke;
+    font-weight: 70;
+}
+
+.A-Condition {
+    align-items: center;
+    max-width: 150px;
+    padding-top: 20px;
+    height: 90px;
+    padding-left: 120px;
+    margin-top: 15px;
+}
+
+.A-child {
+    color: gray;
+    font-size: 19px;
+}
+
+.child-air {
+    color: #fff;
+    align-self: flex-start;
+    font-size: 33px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 2px;
+}

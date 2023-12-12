@@ -1,0 +1,41 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.CurrentWeather-container {
+    max-width: 600px;
+    padding-left: 70px !important;
+}
+
+.CityName {
+    padding-top: 20px;
+    float: left;
+}
+
+.C-head {
+    margin-left: 0px;
+    font-size: 40px;
+}
+
+.C-rain {
+    color: gray;
+}
+.Ctemp{
+    float: left;
+    padding-top: 97px;
+}
+.temp-head {
+    padding-right: 190px;
+    font-size: 35px;
+}
+.W-icon{
+    /* float: top; */
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 120px; */
+    padding-top: 0px;
+    /* padding-bottom: 790px !important; */
+}
