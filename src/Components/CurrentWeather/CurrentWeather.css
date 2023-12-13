@@ -28,14 +28,15 @@ body {
     padding-top: 97px;
 }
 .temp-head {
-    padding-right: 190px;
+    /* padding-right: 250px; */
+    left: 40px;
     font-size: 35px;
 }
 .W-icon{
     /* float: top; */
     display: flex;
     flex-direction: row;
-    /* padding-left: 120px; */
+    padding-left: 260px;
     padding-top: 0px;
     /* padding-bottom: 790px !important; */
 }

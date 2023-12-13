@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.day-head {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 0px;
+    font-size: 17px;
+    color: whitesmoke;
+    font-weight: 70;
+}
+.DayForecast-main{
+    margin-left: 845px;
+    top: -730px;
+    position: relative;
+}
+.DayForecast-container {
+    position: relative;
+    max-width: 400px;
+    /* margin: 10px auto; */
+    padding: 20px;
+    background-color: rgb(21, 40, 67);
+    border-radius: 10px;
+    max-height: 698px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.day,
+.d-icon,
+.w-type,
+.min-max {
+    flex: 1;
+    padding: 10px;
+}
+
+.day {
+    color: gray;
+}
+
+.w-type {
+    color: white;
+}
+
+.d-icon {
+    vertical-align: middle;
+    align-self: center !important;
+}
+
+.min-max {
+    color: white;
+}
+
+.min-max span {
+    color: gray;
+}
+.row{
+    border-bottom: 1px solid gray;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 28px;
+    gap: 20px;
+}
+.column:last-child {
+    margin-right: 0;
+}

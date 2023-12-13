@@ -3,7 +3,7 @@ import "./TodaysForecast.css"
 
 const TodaysForecast = () => {
     return (
-        <><div className="main">
+        <><div className="TodaysForecast-main">
             <div class="TodaysForecast-container">
             <h1 className='T-head' >Today's Forecast</h1>
                 <div class="child-report">
