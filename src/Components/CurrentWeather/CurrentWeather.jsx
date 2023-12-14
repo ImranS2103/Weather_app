@@ -10,7 +10,7 @@ const CurrentWeather = () => {
         <span className='C-rain'>Chance of Rain: 0%</span>
       </div><br /><br />
       <div className="Ctemp">
-        <span className='temp-head'>24<span>&#176;</span></span>
+        <span className='temp-head' style={{ fontSize: '50px' }}> <b> 24<span>&#176;</span></b></span>
       </div>
       <div className="W-icon">
         <img src="https://bmcdn.nl/assets/weather-icons/v2.0/fill/clear-day.svg" alt="Partly Cloudy Day" height="180" />

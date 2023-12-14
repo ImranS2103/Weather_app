@@ -1,7 +1,7 @@
 .logo-column {
   display: flex;
   float: left;
-  height: 780px;
+  height: 815px;
 }
 
 .div-1 {
@@ -23,6 +23,7 @@ margin-right: 8px;
   height: 80px; /* Adjust the size as needed */
   margin-top: 5px;
   align-items: center;
+  justify-content: center;
 }
 
 .cities {

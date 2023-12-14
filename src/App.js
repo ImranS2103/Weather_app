@@ -5,6 +5,7 @@ import CurrentWeather from './Components/CurrentWeather/CurrentWeather'
 import TodaysForecast from './Components/TodaysForecast/TodaysForecast'
 import AirConditions from "./Components/AirConditions/AirConditions"
 import SevenDayForecast from "./Components/7DayForecast/SevenDayForecast"
+import "./App.css"
 
 function App() {
 

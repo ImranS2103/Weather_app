@@ -3,7 +3,6 @@ import "./Logo.css"
 const Logo = () => {
   return (
     <div className="logo-column">
-      {/* Div 1 */}
       <div className="div-1">
         <div className="weather-logo">
           <img className='logo-icon' src="./assets/weather-snow.svg" alt="Weather Logo" />

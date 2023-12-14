@@ -1,3 +1,41 @@
-.horizontal-search-bar{
-    margin-top: 40px;
-}
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: relative; /* Added position relative */
+    width: 700px;
+    margin-top: 10px;
+  }
+  
+  input {
+    flex: 1;
+    font-size: 16px;
+    margin-right: 8px;
+    height: 30px;
+    margin-top: 25px;
+    padding-right: 40px; /* Added padding to accommodate the button */
+  }
+  button {
+    max-width: 100px;
+    max-height: 250px;
+    position: absolute; /* Positioned absolutely */
+    right: -10px; /* Positioned to the right */
+    top: 70%; /* Positioned vertically in the middle */
+    left: 85%;
+    transform: translateY(-50%); /* Centered vertically */
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(21, 40, 67);
+    color: white; /* Set text color to white */
+    border: none; /* Remove button border */
+  }
+  
+  button:active {
+    background-color: rgb(45, 128, 238); /* Change background color to blue when clicked */
+  }
+
+  
+  input:focus + button {
+    display: inline-block; /* Show the button when the input is in focus */
+  }
+  
