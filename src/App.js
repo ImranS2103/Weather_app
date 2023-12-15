@@ -10,6 +10,7 @@ import "./App.css"
 function App() {
 
   return (
+  <div className="main">
     <div className="App">
       <Logo />
       <SearchBar />
@@ -17,6 +18,7 @@ function App() {
       <TodaysForecast /><br />
       <AirConditions />
       <SevenDayForecast />
+    </div>
     </div>
   );
 }

@@ -23,7 +23,7 @@ const AirConditions = () => {
                         <span className='A-child'>UV Index</span><br /><br />
                         <span className='child-air'>2</span>
                     </div>
-                    
+
                 </div>
             </div>
         </>

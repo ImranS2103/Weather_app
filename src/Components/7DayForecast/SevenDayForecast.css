@@ -14,15 +14,16 @@ body {
     color: whitesmoke;
     font-weight: 70;
 }
-.DayForecast-main{
-    margin-left: 845px;
+
+.DayForecast-main {
+    padding-left: 842px;
     top: -730px;
     position: relative;
 }
+
 .DayForecast-container {
     position: relative;
     max-width: 400px;
-    /* margin: 10px auto; */
     padding: 20px;
     background-color: rgb(21, 40, 67);
     border-radius: 10px;
@@ -35,7 +36,6 @@ body {
     font-weight: bold;
     margin-bottom: 20px;
 }
-
 
 .day,
 .d-icon,
@@ -65,7 +65,8 @@ body {
 .min-max span {
     color: gray;
 }
-.row{
+
+.row {
     border-bottom: 1px solid gray;
     width: 400px;
     display: flex;
@@ -75,6 +76,7 @@ body {
     margin-top: 28px;
     gap: 20px;
 }
+
 .column:last-child {
     margin-right: 0;
 }

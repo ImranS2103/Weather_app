@@ -13,6 +13,7 @@
     height: 30px;
     margin-top: 25px;
     padding-right: 40px; /* Added padding to accommodate the button */
+    background-color: lightgray;
   }
   button {
     max-width: 100px;
